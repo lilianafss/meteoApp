@@ -1,0 +1,105 @@
+html *{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #212121;
+}
+
+
+/* Menu Button */
+.menu{
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    background: none;
+    border: none;
+
+    margin: 2%;
+
+    aspect-ratio: 1 / 1;
+    height: 5%;
+    width: auto;
+}
+
+.menu svg{
+    width: 100%;
+    height: auto;
+}
+
+
+/* Offcanvas */
+.offcanvas{
+    width: 60% !important;
+    max-width: 500px;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 85%) !important;
+}
+
+.offcanvas-header{
+    justify-content: center !important;
+}
+
+.offcanvas-body{
+    display: flex;
+    justify-content: center;
+    flex-grow: 0;
+    flex-direction: column;
+
+    color: white;
+}
+
+.offcanvas-body .input-group .input-group-text{
+    border-right: none !important;
+    border-radius: 0 !important;
+    background: none;
+    color: white;
+}
+
+.offcanvas-body .input-group .form-control{
+    border-left: none !important;
+    border-radius: 0 !important;
+    background: none;
+    color: white;
+}
+
+.offcanvas-body .search-option-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.offcanvas-body .search-option-list a{
+    color: white;
+    text-decoration: none;
+
+    margin-top: 7%;
+
+    font-size: large;
+}
+
+.offcanvas-body hr{
+    margin: 10% 0 10% 0;
+    width: auto;
+
+    border: 1px solid white;
+}
+
+.offcanvas-body .location-option-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.offcanvas-body .location-option-list a{
+    margin-top: 7%;
+
+    font-size: large;
+}
+
+.offcanvas-body .location-option-list a svg{
+    color: red;
+}
