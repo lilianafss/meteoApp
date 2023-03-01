@@ -95,11 +95,18 @@ body{
 }
 
 .offcanvas-body .location-option-list a{
-    margin-top: 7%;
-
+    text-decoration: none;
+    color: white;
     font-size: large;
+
+    margin-top: 7%;
 }
 
 .offcanvas-body .location-option-list a svg{
     color: red;
+}
+
+.offcanvas-backdrop{
+    width: 100% !important;
+    height: 100% !important;
 }
