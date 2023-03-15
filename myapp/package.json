@@ -14,7 +14,11 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-android": "^10.1.2",
+<<<<<<< HEAD
     "cordova-plugin-dialogs": "^2.0.2",
+=======
+    "cordova-plugin-ace": "^0.1.2",
+>>>>>>> a72a91fbbc67d38bd3b87f4069bfec0798dd8ab4
     "cordova-plugin-geolocation": "^4.1.0",
     "cordova-plugin-screen-orientation": "^3.0.3",
     "es6-promise-plugin": "^4.2.2"
@@ -28,7 +32,13 @@
       "cordova-plugin-dialogs": {},
       "cordova-plugin-geolocation": {
         "GPS_REQUIRED": "true"
+<<<<<<< HEAD
       }
+=======
+      },
+      "cordova-plugin-screen-orientation": {},
+      "cordova-plugin-ace": {}
+>>>>>>> a72a91fbbc67d38bd3b87f4069bfec0798dd8ab4
     }
   }
 }
