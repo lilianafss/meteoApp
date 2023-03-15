@@ -5,7 +5,22 @@ html *{
 
 body{
     height: 100vh;
-    background-color: lightblue;
+    background-color: #47acff;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    color: white !important;
+}
+
+hr{
+    border: white 1px;
+    opacity: 1 !important;
+}
+
+img
+{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
 
@@ -109,4 +124,35 @@ body{
 .offcanvas-backdrop{
     width: 100% !important;
     height: 100% !important;
+}
+
+
+/* Page */
+
+.page{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.primary-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.primary-info img{
+    width: 50%;
+}
+
+.secondary-info{
+    background-color: rgba(21, 21, 21, 0.25);
+}
+
+.forecast{
+    background-color: rgba(21, 21, 21, 0.5);
+} 
+
+.astronomy{
+    background-color: rgba(21, 21, 21, 0.75);
+    flex-grow: 1;
 }
