@@ -1,0 +1,8 @@
+--- adb starting (pid 317) ---
+adb I 03-01 06:45:04   317   317 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 03-01 06:45:04   317   317 main.cpp:63] Version 31.0.2-7242960
+adb I 03-01 06:45:04   317   317 main.cpp:63] Installed as /opt/android/platform-tools/adb
+adb I 03-01 06:45:04   317   317 main.cpp:63] 
+adb I 03-01 06:45:04   317   317 auth.cpp:417] adb_auth_init...
+adb I 03-01 06:45:04   317   317 auth.cpp:152] loaded new key from '/root/.android/adbkey' with fingerprint DBDD39D78717D9A4D8EC2DDB15052410EFE87E79C015DBDBC5526B04D922D367
+adb I 03-01 06:45:04   317   317 auth.cpp:392] adb_auth_inotify_init...

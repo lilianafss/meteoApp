@@ -24,9 +24,6 @@ function getPosition() {
     }
 }
 
-screen.orientation.onchange = function(){screen.orientation.lock('portrait');console.log('Orientation is ' + screen.orientation.type);
+screen.orientation.onchange = function(){screen.orientation.lock('portrait');
 };
 
-// window.addEventListener("orientationchange", function(){
-//     screen.orientation.lock('portrait');
-// });
